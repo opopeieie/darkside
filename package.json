@@ -1,0 +1,55 @@
+{
+  "name": "dark-side",
+  "version": "0.0.1",
+  "description": "dark-side",
+  "scripts": {
+    "test": "webpack-dev-server --hot",
+    "start": "supervisor server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rackt/redux.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rackt/redux/issues"
+  },
+  "homepage": "http://rackt.github.io/redux",
+  "dependencies": {
+    "better-console": "^0.2.4",
+    "del": "^2.2.2",
+    "extend": "^3.0.0",
+    "map-stream": "0.0.6",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "react-redux": "^4.0.0",
+    "redux": "^3.0.0",
+    "redux-thunk": "^0.1.0",
+    "require-dot-file": "^0.4.0",
+    "react-router": "^2.5.2",
+    "react-router-redux": "^4.0.5",
+    "run-sequence": "^1.2.2",
+    "semantic-ui": "^2.2.6",
+    "jquery": "^3.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^5.6.18",
+    "babel-loader": "^5.1.4",
+    "babel-plugin-react-transform": "^1.1.0",
+    "css-loader": "^0.23.1",
+    "express": "^4.13.3",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "json-loader": "^0.5.4",
+    "node-libs-browser": "^0.5.2",
+    "react-addons-test-utils": "^0.14.0",
+    "react-transform-hmr": "^1.0.0",
+    "style-loader": "^0.13.1",
+    "uglify-js": "2.x",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.9.11",
+    "webpack-dev-middleware": "^1.2.0",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-hot-middleware": "^2.2.0"
+  }
+}
